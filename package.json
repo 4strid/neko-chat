@@ -1,0 +1,54 @@
+{
+  "name": "neko-chat",
+  "version": "0.1.0",
+  "description": "Chat components to be integrated into a Node JS + React stack application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo soon..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cutejs/neko-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "components",
+    "server",
+    "backend",
+    "neko",
+    "nekodb",
+    "frontend",
+    "react",
+    "component",
+    "widget"
+  ],
+  "author": "Peter Fesz-Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cutejs/neko-chat/issues"
+  },
+  "homepage": "https://github.com/cutejs/neko-chat#readme",
+  "dependencies": {
+    "nekodb": "^2.3.0",
+    "prop-types": "^15.5.10",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  },
+  "peerDependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-typescript": "^3.2.2",
+    "typescript": "^2.5.2"
+  }
+}
