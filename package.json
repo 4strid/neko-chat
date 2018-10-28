@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/cutejs/neko-chat#readme",
   "dependencies": {
+    "chat": "github:cutejs/react-chat-ui",
     "nekodb": "^2.3.0",
-    "react-chat-ui": "github:cutejs/react-chat-ui"
+    "react-chat-ui": "file:react-chat-ui"
   }
 }
